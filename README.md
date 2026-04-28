@@ -19,10 +19,16 @@ The ultimate `SKILL.md` system prompt for **Vibe Coders** using **Google Antigra
 ### 🚀 Installation
 
 #### Option 1: Terminal One-Liner (Fastest)
-Run this command in your project's root directory to install the skill instantly:
+Choose the command based on your terminal environment:
 
+**For Mac / Linux / Windows CMD:**
 ```bash
 mkdir -p .agent/skills/agentic-cto-prime && curl -o .agent/skills/agentic-cto-prime/SKILL.md [https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md](https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md)
+```
+
+**For Windows PowerShell:**
+```powershell
+New-Item -Path ".agent\skills\agentic-cto-prime" -ItemType Directory -Force; Invoke-WebRequest -Uri "[https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md](https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md)" -OutFile ".agent\skills\agentic-cto-prime\SKILL.md"
 ```
 
 #### Option 2: Manual Setup
@@ -45,10 +51,16 @@ mkdir -p .agent/skills/agentic-cto-prime && curl -o .agent/skills/agentic-cto-pr
 ### 🚀 طريقة التثبيت
 
 #### الخيار الأول: عبر سطر الأوامر (الأسرع)
-قم بتنفيذ هذا الأمر في المجلد الرئيسي لمشروعك لتثبيت المهارة فوراً:
+اختر الأمر المناسب لبيئة العمل لديك لتثبيت المهارة فوراً:
 
+**لمستخدمي (Mac / Linux / Windows CMD):**
 ```bash
 mkdir -p .agent/skills/agentic-cto-prime && curl -o .agent/skills/agentic-cto-prime/SKILL.md [https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md](https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md)
+```
+
+**لمستخدمي (Windows PowerShell):**
+```powershell
+New-Item -Path ".agent\skills\agentic-cto-prime" -ItemType Directory -Force; Invoke-WebRequest -Uri "[https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md](https://raw.githubusercontent.com/bmubook/Agentic-CTO-Prime/main/SKILL.md)" -OutFile ".agent\skills\agentic-cto-prime\SKILL.md"
 ```
 
 #### الخيار الثاني: التثبيت اليدوي
